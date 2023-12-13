@@ -1,10 +1,18 @@
   .top-nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: white;
+    font-size: medium;
+    justify-items: center;
 }
 
 .nav-item{
-  color: #0000EE
+  color: #3683b9
+}
+
+.texto-intro{
+  color: white;
+  background-color: #0061a6;
+  font-family: 'League Spartan', sans-serif;
 }
