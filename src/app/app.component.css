@@ -15,4 +15,28 @@
   color: white;
   background-color: #0061a6;
   font-family: 'League Spartan', sans-serif;
+  display: table;
+}
+
+
+body{
+  background-color: #0061a6;
+  background-image: url(C:\Users\Johann\Downloads\underControlLandingPage\src\assets\site backgrounds.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: bombardier;
+  src: url(c:\Users\Johann\Downloads\BOMBARD_.ttf);
+}
+
+
+.texto-dois{
+  color: white;
+  background-color: #1f487e;
+  font-family: bombardier, sans-serif;
+  text-align: center;
 }
