@@ -7,6 +7,10 @@
     justify-items: center;
 }
 
+.menu-total{
+  background-color: #0061a6;
+}
+
 .mat-button{
   background-color: #0061a6;
   font-size: medium;
@@ -43,7 +47,7 @@ body{
 .texto-um{
   color: white;
   background-color: #1f487e;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'League Spartan', sans-serif;
   text-align: left;
   padding: 15px;
   font-size: x-large;
