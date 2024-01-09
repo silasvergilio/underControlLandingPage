@@ -8,23 +8,51 @@
       <mat-icon>menu</mat-icon>
     </button>
     <img src="../assets/logo.png">
-    <span class="nav-item"> Sobre Nós </span>
-    <span class="nav-item"> Competição </span>
-    <span class="nav-item"> Patrocinadores </span>
-    <span class="nav-item"> Recursos </span>
-    <span class="nav-item"> Under Development </span>
+    <span class="nav-item"> ----- </span>
+    <span class="nav-item"> ----- </span>
+    <span class="nav-item"> ----- </span>
+    <span class="nav-item"> ----- </span>
+    <span class="nav-item"> ----- </span>
   </mat-toolbar>
+  <button mat-button [matMenuTriggerFor]="menu">Sobre Nós</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>História</button>
+  <button mat-menu-item>Nossos Robôs</button>
+  <button mat-menu-item>Prêmios Recebidos</button>
+  <button mat-menu-item>Contato</button>
+</mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item>FIRST®</button>
+  <button mat-menu-item>Premiações</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<mat-menu #menu3="matMenu">
+<button mat-menu-item>Impact/Books</button>
+<button mat-menu-item>2023 CAD</button>
+<button mat-menu-item>Outros Recursos</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<mat-menu #menu4="matMenu">
+<button mat-menu-item>Under Development</button>
+<button mat-menu-item>Girls In Control</button>
+<button mat-menu-item>Comunidade FIRST BR</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu5">Patrocinadores</button>
+<mat-menu #menu5="matMenu">
+</mat-menu>
+
 </p>
-
 <body>
-<mat-card class="texto-intro">
-  <mat-card-content><h2>"Nossa missão é inspirar gerações através da STEAM, construindo líderes para o futuro,
-    promovendo valores de profissionalismo, humanidade e excelência."</h2>
-  </mat-card-content>
-</mat-card>
 </body>
-
-<mat-card class="texto-dois">
-  <mat-card-content><h1>Conheça nosso trabalho 🦾</h1>
-  </mat-card-content>
-</mat-card>
+<div class="logos">
+  <div class="column">
+    <img src="src\assets\crescefrc.png" alt="Crescendo" style="width:100%">
+  </div> 
+  <div class="column">
+    <mat-card class="texto-um">
+      <mat-card-content><h3>
+        Nosso time participa anualmente da FIRST Robotics Competition, a maior competição de robótica educacional a nível de ensino médio do mundo! Ela visa inspirar jovens a seguirem carreiras nas áreas da ciência, tecnologia, engenharia, artes e matemática. Mas não só isso, ela também é uma competição que promove valores e tem como slogan “Mais do que Robôs”.</h3>
+      </mat-card-content>
+    </mat-card>
+</div>

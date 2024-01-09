@@ -1,4 +1,4 @@
-  .top-nav{
+.top-nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -7,36 +7,66 @@
     justify-items: center;
 }
 
-.nav-item{
-  color: #3683b9
+.mat-button{
+  background-color: #0061a6;
+  font-size: medium;
+  justify-content: space-evenly;
+  text-align: center;
+  justify-items: center;
+  color: white;
+  padding: 10px;
 }
 
-.texto-intro{
-  color: white;
-  background-color: #0061a6;
-  font-family: 'League Spartan', sans-serif;
-  display: table;
+.mat-menu-item{
+  background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #1f487e;
+}
+
+.nav-item{
+  color: #0061a6
 }
 
 
 body{
   background-color: #0061a6;
-  background-image: url(C:\Users\Johann\Downloads\underControlLandingPage\src\assets\site backgrounds.png);
+  background-image: url(src\assets\sitebackgrounds.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
 }
 
-@font-face {
-  font-family: bombardier;
-  src: url(c:\Users\Johann\Downloads\BOMBARD_.ttf);
-}
 
-
-.texto-dois{
+.texto-um{
   color: white;
   background-color: #1f487e;
-  font-family: bombardier, sans-serif;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  padding: 15px;
+  font-size: x-large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.logos {
+  background-color:#1f487e;
+  width: auto;
+  height: auto;
+}
+
+.logos::after {
+  content: "";
+  clear: both;
+  display: table;
 }
