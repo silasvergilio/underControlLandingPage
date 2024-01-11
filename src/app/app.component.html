@@ -7,18 +7,31 @@
       <mat-icon>menu</mat-icon>
     </button>
     <img src="../assets/logo.png">
-    <span class="nav-item"> ----- </span>
-    <span class="nav-item"> ----- </span>
-    <span class="nav-item"> ----- </span>
-    <span class="nav-item"> ----- </span>
-    <span class="nav-item"> ----- </span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+
+    <div class="social">
+      <button mat-icon-button color="primary" aria-label="Youtube">
+        <mat-icon svgIcon="youtube"></mat-icon>
+      </button>
+      <button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button>
+      <button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button>
+    </div>    
+
   </mat-toolbar>
 <div class="menu-total">
-  <button mat-button [matMenuTriggerFor]="menu">Sobre Nós</button>
+  <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>História</button>
+  <button mat-menu-item>Sobre Nós</button>
   <button mat-menu-item>Nossos Robôs</button>
-  <button mat-menu-item>Prêmios Recebidos</button>
+  <button mat-menu-item>Conquistas</button>
   <button mat-menu-item>Contato</button>
 </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
@@ -52,7 +65,13 @@
   <div class="column">
     <mat-card>
       <mat-card-content><h3 class="texto-um">
-        Nosso time participa anualmente da FIRST Robotics Competition, a maior competição de robótica educacional a nível de ensino médio do mundo! Ela visa inspirar jovens a seguirem carreiras nas áreas da ciência, tecnologia, engenharia, artes e matemática. Mas não só isso, ela também é uma competição que promove valores e tem como slogan “Mais do que Robôs”.</h3>
+        Nosso time participa anualmente da FIRST Robotics Competition, a maior competição de robótica educacional a nível de ensino médio do mundo! Ela visa inspirar jovens a seguirem carreiras nas áreas da ciência, tecnologia, engenharia, artes e matemática. Mas não só isso, ela também é uma competição que promove valores e tem como slogan “Mais do que Robôs”. 🏆</h3>
       </mat-card-content>
     </mat-card>
 </div>
+
+<body>
+</body>
+<div class="fototime">
+    <img src="../assets/fototime.png" alt="Foto Time" style="width:100%">
+  </div> 

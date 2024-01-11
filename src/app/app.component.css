@@ -7,18 +7,24 @@
     justify-items: center;
 }
 
+.social button,
+.social a {
+  margin-right: 10px;
+}
+
 .menu-total{
   background-color: #0061a6;
+  justify-content: space-evenly;
 }
 
 .mat-button{
   background-color: #0061a6;
   font-size: medium;
-  justify-content: space-evenly;
   text-align: center;
   justify-items: center;
   color: white;
   padding: 10px;
+  margin-left: 20px;
 }
 
 .mat-menu-item{
@@ -46,10 +52,11 @@ body{
 
 .texto-um{
   color: white;
-  background-color: #1f487e;
+  background-color: #001f3a;
   font-family: 'League Spartan', sans-serif;
   text-align: left;
-  padding: 15px;
+  padding: 10px;
+  border-color: #001f3a;
   font-size: x-large;
 }
 
@@ -57,20 +64,37 @@ body{
   box-sizing: border-box;
 }
 
+.mat-card {
+  background-color: #001f3a;
+  border-style: none;
+}
+
+.mat-card-content {
+  border-style: none;
+  margin-right: 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     0px;
+}
+
 .column {
   float: left;
   width: 50%;
-  padding: 5px;
 }
 
 .logos {
-  background-color:#1f487e;
-  width: auto;
-  height: auto;
+  background-color:#001f3a;
+  width: cover;
+  height: cover;
 }
 
 .logos::after {
   content: "";
   clear: both;
   display: table;
+  background-color:#001f3a;
+}
+
+.fototime{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }

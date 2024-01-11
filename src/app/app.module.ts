@@ -9,8 +9,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
-
-
+import { HttpClientModule } from "@angular/common/http";
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
 
 @NgModule({
   declarations: [
@@ -24,9 +25,22 @@ import {MatMenuModule} from '@angular/material/menu';
     MatToolbarModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private matIconRegistry: MatIconRegistry,
+              private domSanitizer: DomSanitizer){
+        this.matIconRegistry.addSvgIcon(
+          "youtube",
+          this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/youtube.svg"),
+        )
+          this.matIconRegistry.addSvgIcon(
+          "instagram",
+          this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/instagram.svg"),
+        );
+    }
+}
