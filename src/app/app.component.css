@@ -85,6 +85,10 @@ body{
   height: cover;
 }
 
+.crescefrc{
+  padding-top: 23px;
+}
+
 .logos::after {
   content: "";
   clear: both;
@@ -97,4 +101,39 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: auto;
+}
+
+.footer {
+  font-family: 'Bombardier', sans-serif;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3e3e42;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  border: #001f3a;
+  border-radius: 5px;
+}
+
+.column3{
+  width: 50%;
+  float: left;
+}
+
+.logof1{
+  width: 7%;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.logof2{
+  width: 9%;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.copy{
+ font-size: 15px;
 }
