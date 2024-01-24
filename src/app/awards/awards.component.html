@@ -1,1 +1,125 @@
-<p>awards works!</p>
+<mat-toolbar color="primary" class="top-nav">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img src="../assets/logo.png">
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>    
+
+  </mat-toolbar>
+<div class="menu-total">
+  <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Sobre Nós</button>
+  <button mat-menu-item>Nossos Robôs</button>
+  <button mat-menu-item>Conquistas</button>
+  <button mat-menu-item>Contato</button>
+</mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item>FIRST®</button>
+  <button mat-menu-item>Premiações</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<mat-menu #menu3="matMenu">
+<button mat-menu-item>Impact/Books</button>
+<button mat-menu-item>2023 CAD</button>
+<button mat-menu-item>Outros Recursos</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<mat-menu #menu4="matMenu">
+<button mat-menu-item>Under Development</button>
+<button mat-menu-item>Girls In Control</button>
+<button mat-menu-item>Comunidade FIRST BR</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu5">Patrocinadores</button>
+<mat-menu #menu5="matMenu">
+</mat-menu>
+</div>
+
+<div class="column">
+    <img src="../assets/premiacao.png" class="premiacao" alt="premiacao" style="width:100%">
+</div>
+
+<mat-card>
+    <mat-card-content><h2 class="premiacaotit">
+        Quais são os prêmios e o que representam:</h2>
+    </mat-card-content>
+</mat-card>
+
+<mat-tab-group class="listapremios" animationDuration="0ms">
+    <mat-tab class="tab1" label="Técnicos"><br>
+        <b>Prêmio de Qualidade</b> – Celebra um robô robusta no conceito e fabricação. <br>
+        <b>Prêmio de Design Industrial</b> – Celebra a função e a forma de um robô eficiente que é capaz de realizar<br> os desafios do jogo de maneira eficaz. <br>
+        <b>Prêmio de Inovação em Controle</b> – Celebra um sistema de controle inovador ou a aplicação de componentes de controle<br> – elétrico, mecânico ou software – para criar funções únicas para o robô. <br>
+        <b>Prêmio de Excelência em Engenharia</b> – Celebra uma função elegante e vantajosa do robô. <br>
+        <b>Prêmio de Autônomo</b> – Homenageia a equipe que demonstrou operação robótica consistente, confiável e de<br> alto desempenho durante ações gerenciadas de forma autônoma. <br>
+        <b>Prêmio de Criatividade</b>  – Celebra a criatividade que aprimora a estratégia de jogo e foi intencionalmente projetada e não descoberta. <br>
+        <br>
+        Para informações mais detalhadas de todos os prêmios: https://www.firstinspires.org/robotics/frc/awards</mat-tab>
+    <mat-tab class="tab1" label="Não-Técnicos"><br>
+        <b>​Impact Award</b> – Honra o time que melhor representa um modelo para outros times se basearem e que melhor<br> incorpora o propósito e objetivos da FIRST. Este prêmio garanta vaga na etapa mundial e, caso conquistado na etapa mundial,<br> garante vaga vitalícia no evento.<br>
+        <b>Dean’s List Award</b> – Em um esforço para reconhecer a liderança e dedicação dos alunos mais destacados do ensino médio na FIRST®,
+        <br>a família Kamen patrocina prêmios para esses alunos selecionados.<br>
+        <b>P​rêmio de Inspiração a Engenharia</b> – Celebra um sucesso excepcional em avançar o respeito e a apreciação
+        <br>pela engenharia dentro da escola do time e em sua comunidade. Este prêmio garante vaga na etapa mundial.<br>
+        <b>Woodie Flowers Award</b> – Este prêmio reconhece um indivíduo que realizou um excelente trabalho de motivação por meio da comunicação,<br>
+        ao mesmo tempo em que desafia os alunos a serem claros e sucintos em suas comunicações. Como tal, é muito importante que este seja um<br> esforço liderado pelo aluno e uma decisão do aluno.<br>
+        <b>Gracious Professionalism® Award</b> – Comemora a excelente demonstração dos Valores Fundamentais da FIRST,<br> como o Gracious Professionalism®
+        <br>contínuo e o trabalho conjunto dentro e fora do campo de jogo.<br>
+        <b>Imagery Award in honor of Jack Kamen</b> – Este prêmio celebra a atratividade em engenharia e<br> aexcelente integração estética visual da aparência da máquina e da equipe.<br>
+        <b>Prêmio de Espírito de Equipe</b> – Comemora o entusiasmo e o espírito extraordinários por meio de parcerias excepcionais e
+        <br>trabalho em equipe, promovendo os objetivos da FIRST.<br>
+        <b>Prêmio de Sustentabilidade de Equipe</b> – Comemora e reconhece uma equipe que desenvolveu um programa sustentável para definir,
+        <br>gerenciar e atingir os objetivos contínuos da equipe.<br>
+        <br>
+        Para informações mais detalhadas de todos os prêmios: https://www.firstinspires.org/robotics/frc/awards</mat-tab>
+  </mat-tab-group>
+<body>
+</body>
+
+<div class="footer">
+    <div class="column3">
+    <h2>Localização: </h2><p>Colégio Marista Pio XII - 93510-060 <br> Av. Nicolau Becker 182,
+      Vila Rosa - Novo Hamburgo, RS Brasil. <br> Aberto de Segunda à Sexta das 8:00 às 17:40</p>
+    </div>
+    <div class="column3">
+      <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
+        Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 <br> Email ➞ robotica.1156@gmail.com </p>
+      </div>
+      <img src="../assets/LogoFIRST.png" class="logof1" alt="logoFirst">
+      <img src="../assets/under.png" class="logof2" alt="logoUnder">
+    <div class="copy">
+      <p>© 2024 Under Control - 1156 | O Time de Robótica do Brasil. All Rights Reserved.</p>
+    </div>
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>   
+  </div>
