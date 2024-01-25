@@ -100,7 +100,6 @@ body{
 .texto-dois{
   color: white;
   background-color: #001f3a;
-  font-family: 'Bombardier', sans-serif;
   text-align: left;
   padding: 10px;
   margin-left: 15px;
@@ -127,9 +126,18 @@ body{
   width: auto;
 }
 
+@font-face {
+  font-family: 'Bombardier';
+  src: url('Bombardier.woff2') format('woff2'),
+      url('Bombardier.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .footer {
   font-family: 'Bombardier', sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   left: 0;
   bottom: 0;
   width: 100%;

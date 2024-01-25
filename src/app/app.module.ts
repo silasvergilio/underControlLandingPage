@@ -14,12 +14,14 @@ import { DomSanitizer } from "@angular/platform-browser";
 import { AwardsComponent } from './awards/awards.component';
 import { HomeComponent } from './home/home.component';
 import {MatTabsModule} from '@angular/material/tabs';
+import { SobrenosComponent } from './sobrenos/sobrenos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AwardsComponent,
     HomeComponent,
+    SobrenosComponent,
   ],
   imports: [
     MatMenuModule,

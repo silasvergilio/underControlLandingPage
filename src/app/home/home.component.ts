@@ -17,6 +17,12 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigateSobrenos() {
+
+    this.router.navigate(['sobrenos']);
+    
+  }
+
   ngOnInit(): void {
   }
 

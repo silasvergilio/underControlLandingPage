@@ -39,48 +39,8 @@
   color: #0061a6
 }
 
-.competicao{
-    border-color: #001f3a;
-    background-color: #001f3a;
-}
-
-.premiacaotit{
-    background-color: #001f3a;
-    border-color: #001f3a;
-    text-align: center;
-    border-style: none;
-    font-size: xx-large;
-}
-
-.mat-card{
-    background-color: #001f3a;
-    margin-top: -8px;
-    border-style: none;
-  }
-  
-.mat-card-content{
-    border-style: none;
-    color: white;
-    background-color: #001f3a;
-}
-
-.listapremios{
-    background-color: #001f3a;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-}
-
-.mat-tab-group{
-    color: #929495;
-    align-items: center;
-    text-align: left;
-    align-items: center;
-    margin-bottom: -220px;
-}
-
 body{
-    background-color: #001f3a;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -95,6 +55,66 @@ body{
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+.column4{
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+}
+
+.titlesn{
+    color: white;
+    font-family: 'Bombardier';
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    background-color: #1f487e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titlesn2{
+    color: yellow;
+    font-family: 'Bombardier';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 40px;
+    background-color: #1f487e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-um{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.divider1{
+    margin-bottom: 15px;
+}
+
+.premiosunder{
+    background-color: white;
+    color: #1f487e;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.cb{
+    color: black;
+}
+
+.tab1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: x-large;
 }
 
 .footer {
@@ -120,7 +140,7 @@ body{
     width: 50%;
     float: left;
 }
-  
+
 .logof1{
     width: 7%;
     padding-bottom: 25px;

@@ -29,9 +29,8 @@
 <div class="menu-total">
   <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item>Sobre Nós</button>
+  <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
   <button mat-menu-item>Nossos Robôs</button>
-  <button mat-menu-item>Conquistas</button>
   <button mat-menu-item>Contato</button>
 </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
@@ -97,7 +96,7 @@ src="https://www.youtube.com/embed/RU3XEFaCeSE?loop=1">
     </div>
     <div class="column3">
       <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
-        Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 <br> Email ➞ robotica.1156@gmail.com </p>
+        <br>Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 - Email ➞ robotica.1156@gmail.com </p>
       </div>
       <img src="../assets/LogoFIRST.png" class="logof1" alt="logoFirst">
       <img src="../assets/under.png" class="logof2" alt="logoUnder">
