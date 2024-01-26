@@ -71,7 +71,7 @@ body{
     text-align: right;
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 48px;
     background-color: #1f487e;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -83,10 +83,33 @@ body{
     font-weight: normal;
     font-style: normal;
     text-align: left;
-    font-size: 40px;
+    font-size: 48px;
     background-color: #1f487e;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.premiosdiv{
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+.titlep{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 13px;
+    font-family: 'Bombardier', sans-serif;
+    padding: 12px;
+}
+
+.premios2023{
+    background-color: white;
+    color: #001f3a;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    font-size: 17.5px;
+    margin-left: 50px;
 }
 
 .texto-um{
@@ -96,7 +119,13 @@ body{
 }
 
 .divider1{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.regional{
+    color: black;
+    font-size: 19px;
 }
 
 .premiosunder{
@@ -104,7 +133,13 @@ body{
     color: #1f487e;
     text-align: left;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.gif1{
+    margin-left: 150px;
+    margin-top: -80px;
 }
 
 .cb{
@@ -115,6 +150,12 @@ body{
     text-align: left;
     margin-bottom: 20px;
     font-size: x-large;
+    margin-left: 20px;
+}
+
+.mat-tab-group{
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 .footer {

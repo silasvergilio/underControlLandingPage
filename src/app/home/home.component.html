@@ -35,7 +35,7 @@
 </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
 <mat-menu #menu2="matMenu">
-  <button mat-menu-item>FIRST®</button>
+  <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
   <button mat-menu-item (click)="navigateAwards()">Premiações</button>
 </mat-menu>
 <button mat-button [matMenuTriggerFor]="menu3">Recursos</button>

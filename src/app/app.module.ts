@@ -15,6 +15,7 @@ import { AwardsComponent } from './awards/awards.component';
 import { HomeComponent } from './home/home.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SobrenosComponent } from './sobrenos/sobrenos.component';
+import { FirstComponent } from './first/first.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SobrenosComponent } from './sobrenos/sobrenos.component';
     AwardsComponent,
     HomeComponent,
     SobrenosComponent,
+    FirstComponent,
   ],
   imports: [
     MatMenuModule,

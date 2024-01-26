@@ -23,6 +23,12 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigateFirst() {
+
+    this.router.navigate(['first']);
+    
+  }
+
   ngOnInit(): void {
   }
 

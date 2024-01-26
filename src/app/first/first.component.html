@@ -1,0 +1,90 @@
+<mat-toolbar color="primary" class="top-nav">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img src="../assets/logo.png">
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+    <span class="nav-item"></span>
+
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>    
+
+  </mat-toolbar>
+<div class="menu-total">
+  <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Sobre Nós</button>
+  <button mat-menu-item>Nossos Robôs</button>
+  <button mat-menu-item>Contato</button>
+</mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item>FIRST®</button>
+  <button mat-menu-item>Premiações</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<mat-menu #menu3="matMenu">
+<button mat-menu-item>Impact/Books</button>
+<button mat-menu-item>2023 CAD</button>
+<button mat-menu-item>Outros Recursos</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<mat-menu #menu4="matMenu">
+<button mat-menu-item>Under Development</button>
+<button mat-menu-item>Girls In Control</button>
+<button mat-menu-item>Comunidade FIRST BR</button>
+</mat-menu>
+<button mat-button [matMenuTriggerFor]="menu5">Patrocinadores</button>
+<mat-menu #menu5="matMenu">
+</mat-menu>
+</div>
+
+<div class="column">
+    <img src="../assets/competicao.png" class="competicao" alt="competicao" style="width:100%">
+</div>
+
+<body>
+</body>
+
+<div class="footer">
+    <div class="column3">
+    <h2>Localização: </h2><p>Colégio Marista Pio XII - 93510-060 <br> Av. Nicolau Becker 182,
+      Vila Rosa - Novo Hamburgo, RS Brasil. <br> Aberto de Segunda à Sexta das 8:00 às 17:40</p>
+    </div>
+    <div class="column3">
+        <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
+            <br>Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 - Email ➞ robotica.1156@gmail.com </p>
+      </div>
+      <img src="../assets/LogoFIRST.png" class="logof1" alt="logoFirst">
+      <img src="../assets/under.png" class="logof2" alt="logoUnder">
+    <div class="copy">
+      <p>© 2024 Under Control - 1156 | O Time de Robótica do Brasil. All Rights Reserved.</p>
+    </div>
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>   
+  </div>
