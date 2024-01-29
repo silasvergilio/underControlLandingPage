@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { SobrenosComponent } from './sobrenos/sobrenos.component';
 import { FirstComponent } from './first/first.component';
+import { RobosComponent } from './robos/robos.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FirstComponent } from './first/first.component';
     HomeComponent,
     SobrenosComponent,
     FirstComponent,
+    RobosComponent,
   ],
   imports: [
     MatMenuModule,

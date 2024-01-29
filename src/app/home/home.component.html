@@ -30,7 +30,7 @@
   <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
 <mat-menu #menu="matMenu">
   <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
-  <button mat-menu-item>Nossos Robôs</button>
+  <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
   <button mat-menu-item>Contato</button>
 </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu2">Competição</button>

@@ -1,3 +1,10 @@
+.rubik-font{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 .top-nav{
     display: flex;
     flex-direction: row;
@@ -15,6 +22,12 @@
 .menu-total{
   background-color: #0061a6;
   justify-content: space-evenly;
+}
+
+.mat-card{
+  background-color: #1f487e;
+  margin-top: -8px;
+  border-style: none;
 }
 
 .mat-button{
@@ -39,13 +52,85 @@
   color: #0061a6
 }
 
-body{
-    background-color: #001f3a;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: auto;
-    margin-bottom: -340px;
+.premiacaotit{
+  background-color: #1f487e;
+  border-color: #001f3a;
+  text-align: center;
+  border-style: none;
+  font-size: 36px;
+  font-style: bold;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.compbg{
+  border: #0061a6;
+}
+
+.frclogo{
+  position: absolute;
+  margin-top: -420px;
+  margin-left: 230px;
+  text-align: center;
+  align-items: center;
+}
+
+.centered{
+  position: absolute;
+  margin-top: 345px;
+  margin-left: -25px;
+  margin-right: -25px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.maisque{
+  margin-top: -8px;
+  text-align: center;
+  background-color: #001f3a;
+}
+
+.centered2{
+  position: absolute;
+  margin-top: 910px;
+  margin-left: -190px;
+  margin-right: 50px;
+  padding-right: 100px;
+  text-align: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fototime{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.arimo-font{
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
@@ -58,10 +143,10 @@ body{
 }
 
 
-
 .footer {
     font-family: 'Bombardier', sans-serif;
     font-size: 19px;
+    margin-top: 5px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -70,8 +155,9 @@ body{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 10px;
+    margin-top: -8px;
 }
-  
+
 .column2{
     width: 50%;
     float: left;

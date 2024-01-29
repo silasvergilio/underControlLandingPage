@@ -29,6 +29,12 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigateRobos() {
+
+    this.router.navigate(['robos']);
+    
+  }
+
   ngOnInit(): void {
   }
 
