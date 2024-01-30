@@ -56,6 +56,7 @@ body{
   font-family: 'League Spartan', sans-serif;
   text-align: left;
   padding: 10px;
+  margin-right: 15px;
   border-color: #001f3a;
   font-size: x-large;
 }
@@ -99,6 +100,7 @@ body{
 
 .texto-dois{
   color: white;
+  margin-left: 25px;
   background-color: #001f3a;
   text-align: left;
   padding: 10px;
@@ -106,6 +108,34 @@ body{
   margin-right: 5px;
   border-color: #001f3a;
   font-size: x-large;
+}
+
+.league-spartan{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.menucor{
+  color: white;
+  font-family: "League Spartan";
+  font-size: 19px;
+}
+
+.giccor{
+  color: #f8a2db;
+  font-size: 16px;
+}
+
+.cfbcor{
+  color: #009c3b;
+  font-size: 16px;
+}
+
+.undcor{
+  color: #009cd7;
+  font-size: 16px;
 }
 
 .robottitle{

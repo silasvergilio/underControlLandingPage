@@ -9,10 +9,4 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'underLandingPage';
   constructor(private router: Router) {}
-
-  public navigateAwards() {
-
-    this.router.navigate(['premios']);
-    
   }
-}

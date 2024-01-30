@@ -1,6 +1,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;1,500&family=League+Spartan&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <mat-toolbar color="primary" class="top-nav">
     <button
       mat-icon-button
@@ -30,75 +33,53 @@
 
   </mat-toolbar>
 <div class="menu-total">
-  <button class="menucor" mat-button [matMenuTriggerFor]="menu">Sobre</button>
+  <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
 <mat-menu #menu="matMenu">
-  <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
-  <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
+  <button mat-menu-item>Sobre Nós</button>
+  <button mat-menu-item>Nossos Robôs</button>
 </mat-menu>
-  <button class="menucor" mat-button [matMenuTriggerFor]="menu2">Competição</button>
+  <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
 <mat-menu #menu2="matMenu">
-  <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
-  <button mat-menu-item (click)="navigateAwards()">Premiações</button>
+  <button mat-menu-item>FIRST®</button>
+  <button mat-menu-item>Premiações</button>
 </mat-menu>
-<button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<button mat-button [matMenuTriggerFor]="menu3">Recursos</button>
 <mat-menu #menu3="matMenu">
 <button mat-menu-item>Impact/Books</button>
 <button mat-menu-item>2023 CAD</button>
 <button mat-menu-item>Outros Recursos</button>
 </mat-menu>
-<button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<button mat-button [matMenuTriggerFor]="menu4">Projetos</button>
 <mat-menu #menu4="matMenu">
-<button class="undcor" mat-menu-item>Under Development</button>
-<button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
-<button class="cfbcor" mat-menu-item>Comunidade FIRST BR</button>
+<button mat-menu-item>Under Development</button>
+<button mat-menu-item>Girls In Control</button>
+<button mat-menu-item>Comunidade FIRST BR</button>
 </mat-menu>
-<button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
+<button mat-button>Patrocinadores</button>
 <mat-menu #menu5="matMenu">
 </mat-menu>
 </div>
 
 <body>
+    <div class="column">
+        <img src="../assets/p1.png" class="p1" alt="Sponsors" style="width:100%">
+        <div class="sponsor"><img src="../assets/p2.png" style="width:100%"></div>
+        <div class="sponsor"><img src="../assets/p3.png" style="width:85%"></div>
+        <div class="sponsor"><img src="../assets/p4.png" style="width:100%"></div>
+        <div class="sponsor2"><img src="../assets/p5.png" style="width:85%"></div>
+        <div class="sponsor"><img src="../assets/p6.png" style="width:65%"></div>
+    </div>
 </body>
-<div class="logos">
-  <div class="column">
-    <img src="../assets/crescefrc.png" class="crescefrc" alt="Crescendo" style="width:100%">
-  </div> 
-  <div class="column">
-    <mat-card>
-      <mat-card-content><h3 class="texto-um">
-        Nosso time participa anualmente da FIRST Robotics Competition, a maior competição de robótica educacional a nível de ensino médio do mundo! Ela visa inspirar jovens a seguirem carreiras nas áreas da ciência, tecnologia, engenharia, artes e matemática. Mas não só isso, ela também é uma competição que promove valores e tem como slogan “Mais do que Robôs”. 🏆</h3>
-      </mat-card-content>
-    </mat-card>
-</div>
 
-  <iframe class="ytv" width="640" height="360"
-src="https://www.youtube.com/embed/RU3XEFaCeSE?loop=1">
-</iframe>
-<div class="robottitle">
-  <img src="../assets/titlearc.png" alt="robottitle" style="width:50%">
-</div> 
-  <div class="column2">
-    <mat-card-content><h3 class="texto-dois">O nosso robô da temporada de 2023 se chama Archon, cujo
-      nome é inspirado em uma unidade do Starcraft. Tem 38 polegadas de altura, 24 polegadas de largura, 25,5
-      polegadas de comprimento e pesa 31,5 quilos. O robô foi inteiramente projetada em CAD. 
-    </h3>
-  </mat-card-content>
-</div>
 
-<body>
-</body>
-<div class="fototime">
-    <img src="../assets/fototime.png" alt="Foto Time" style="width:100%">
-  </div>
-
-  <div class="footer">
+<div class="footer">
     <div class="column3">
     <h2>Localização: </h2><p>Colégio Marista Pio XII - 93510-060 <br> Av. Nicolau Becker 182,
       Vila Rosa - Novo Hamburgo, RS Brasil. <br> Aberto de Segunda à Sexta das 8:00 às 17:40</p>
     </div>
     <div class="column3">
-      <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
-        <br>Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 - Email ➞ robotica.1156@gmail.com </p>
+        <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
+            <br>Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 - Email ➞ robotica.1156@gmail.com </p>
       </div>
       <img src="../assets/LogoFIRST.png" class="logof1" alt="logoFirst">
       <img src="../assets/under.png" class="logof2" alt="logoUnder">

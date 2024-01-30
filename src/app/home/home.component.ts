@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -29,12 +28,30 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigatePatrocinadores() {
+
+    this.router.navigate(['patrocinadores']);
+    
+  }
+
+  public navigateGic() {
+
+    this.router.navigate(['gic']);
+    
+  }
+
   public navigateRobos() {
 
     this.router.navigate(['robos']);
     
   }
 
+  public navigateHome() {
+
+    this.router.navigate(['']);
+    
+  }
+  
   ngOnInit(): void {
   }
 

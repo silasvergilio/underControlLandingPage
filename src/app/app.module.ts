@@ -17,6 +17,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { SobrenosComponent } from './sobrenos/sobrenos.component';
 import { FirstComponent } from './first/first.component';
 import { RobosComponent } from './robos/robos.component';
+import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
+import { GicComponent } from './gic/gic.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { RobosComponent } from './robos/robos.component';
     SobrenosComponent,
     FirstComponent,
     RobosComponent,
+    PatrocinadoresComponent,
+    GicComponent,
   ],
   imports: [
     MatMenuModule,
