@@ -28,12 +28,13 @@
 }
 
 .mat-menu-item{
-  background-color: white;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: left;
-  color: #1f487e;
-}
+    background-color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #1f487e;
+  }
 
 .nav-item{
   color: #0061a6
@@ -87,6 +88,34 @@ body{
     background-size: auto;
     margin-bottom: -340px;
 }
+
+.league-spartan{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .menucor{
+    color: white;
+    font-family: "League Spartan";
+    font-size: 19px;
+  }
+  
+  .giccor{
+    color: #f8a2db;
+    font-size: 16px;
+  }
+  
+  .cfbcor{
+    color: #009c3b;
+    font-size: 16px;
+  }
+  
+  .undcor{
+    color: #009cd7;
+    font-size: 16px;
+  }
 
 @font-face {
     font-family: 'Bombardier';

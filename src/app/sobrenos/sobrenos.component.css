@@ -28,11 +28,12 @@
 }
 
 .mat-menu-item{
-  background-color: white;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: left;
-  color: #1f487e;
+    background-color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #1f487e;
 }
 
 .nav-item{

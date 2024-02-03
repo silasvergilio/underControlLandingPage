@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-patrocinadores',
-  templateUrl: './patrocinadores.component.html',
-  styleUrls: ['./patrocinadores.component.css']
+  selector: 'app-development',
+  templateUrl: './development.component.html',
+  styleUrls: ['./development.component.css']
 })
-export class PatrocinadoresComponent implements OnInit {
+export class DevelopmentComponent implements OnInit {
 
   constructor(private router: Router) {}
 
@@ -45,7 +45,7 @@ export class PatrocinadoresComponent implements OnInit {
     this.router.navigate(['robos']);
     
   }
-
+  
   public navigateComunidade() {
 
     this.router.navigate(['comunidade']);

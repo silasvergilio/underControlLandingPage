@@ -19,6 +19,8 @@ import { FirstComponent } from './first/first.component';
 import { RobosComponent } from './robos/robos.component';
 import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
 import { GicComponent } from './gic/gic.component';
+import { ComunidadeComponent } from './comunidade/comunidade.component';
+import { DevelopmentComponent } from './development/development.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { GicComponent } from './gic/gic.component';
     RobosComponent,
     PatrocinadoresComponent,
     GicComponent,
+    ComunidadeComponent,
+    DevelopmentComponent,
   ],
   imports: [
     MatMenuModule,

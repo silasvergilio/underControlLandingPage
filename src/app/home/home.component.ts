@@ -46,12 +46,24 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigateComunidade() {
+
+    this.router.navigate(['comunidade']);
+    
+  }
+
+  public navigateDevelopment() {
+
+    this.router.navigate(['development']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);
     
   }
-  
+
   ngOnInit(): void {
   }
 

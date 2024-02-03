@@ -2,19 +2,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 <mat-toolbar color="primary" class="top-nav">
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with menu icon"
-    >
-      <mat-icon>menu</mat-icon>
-    </button>
-    <img src="../assets/logo.png">
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img src="../assets/logo.png">
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
 
     <div class="social">
       <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
@@ -48,9 +48,9 @@
 </mat-menu>
 <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
 <mat-menu #menu4="matMenu">
-<button class="undcor" mat-menu-item>Under Development</button>
+<button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
 <button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
-<button class="cfbcor" mat-menu-item>Comunidade FIRST BR</button>
+<button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
 </mat-menu>
 <button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
 <mat-menu #menu5="matMenu">

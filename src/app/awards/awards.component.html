@@ -26,33 +26,33 @@
     </div>    
 
   </mat-toolbar>
-<div class="menu-total">
-  <button mat-button [matMenuTriggerFor]="menu">Sobre</button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item>Sobre Nós</button>
-  <button mat-menu-item>Nossos Robôs</button>
-</mat-menu>
-  <button mat-button [matMenuTriggerFor]="menu2">Competição</button>
-<mat-menu #menu2="matMenu">
-  <button mat-menu-item>FIRST®</button>
-  <button mat-menu-item>Premiações</button>
-</mat-menu>
-<button mat-button [matMenuTriggerFor]="menu3">Recursos</button>
-<mat-menu #menu3="matMenu">
-<button mat-menu-item>Impact/Books</button>
-<button mat-menu-item>2023 CAD</button>
-<button mat-menu-item>Outros Recursos</button>
-</mat-menu>
-<button mat-button [matMenuTriggerFor]="menu4">Projetos</button>
-<mat-menu #menu4="matMenu">
-<button mat-menu-item>Under Development</button>
-<button mat-menu-item>Girls In Control</button>
-<button mat-menu-item>Comunidade FIRST BR</button>
-</mat-menu>
-<button mat-button>Patrocinadores</button>
-<mat-menu #menu5="matMenu">
-</mat-menu>
-</div>
+  <div class="menu-total">
+    <button class="menucor" mat-button [matMenuTriggerFor]="menu">Sobre</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
+    <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
+  </mat-menu>
+    <button class="menucor" mat-button [matMenuTriggerFor]="menu2">Competição</button>
+  <mat-menu #menu2="matMenu">
+    <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
+    <button mat-menu-item (click)="navigateAwards()">Premiações</button>
+  </mat-menu>
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+  <mat-menu #menu3="matMenu">
+  <button mat-menu-item>Impact/Books</button>
+  <button mat-menu-item>2023 CAD</button>
+  <button mat-menu-item>Outros Recursos</button>
+  </mat-menu>
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+  <mat-menu #menu4="matMenu">
+  <button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
+  <button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
+  <button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
+  </mat-menu>
+  <button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
+  <mat-menu #menu5="matMenu">
+  </mat-menu>
+  </div>
 
 <div class="column">
     <img src="../assets/premiacao.png" class="premiacao" alt="premiacao" style="width:100%">

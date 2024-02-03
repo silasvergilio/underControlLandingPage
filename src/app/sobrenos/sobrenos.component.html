@@ -48,9 +48,9 @@
   </mat-menu>
   <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
   <mat-menu #menu4="matMenu">
-  <button class="undcor" mat-menu-item>Under Development</button>
+  <button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
   <button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
-  <button class="cfbcor" mat-menu-item>Comunidade FIRST BR</button>
+  <button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
   </mat-menu>
   <button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
   <mat-menu #menu5="matMenu">
@@ -76,7 +76,7 @@
 </div>
 <div class="column2">
   <mat-card-content><h3 class="premios2023"><br><ul>
-    <li>Engineering Inspiration Award (World Championship – Newton Division);<br>
+    <li>Engineering Inspiration Award (<b>World Championship</b> – Newton Division);<br>
     <li>Regional Winners (Brazil Regional);<br>
     <li>Industrial Design Award sponsored by General Motors (Brazil Regional);<br>
     <li class="cb">Classificação para a Etapa Mundial (Championship).<br>
@@ -101,7 +101,7 @@
       <li>Chairman’s Award Winner (Caribbean & South American Regional);<br>
       <li>Woodie Flowers Finalist Award (Bruno Nunes Toso - Caribbean & South American Regional);<br>
       <li>Industrial Design Award (Rubidium Group Regional);<br>
-      <li>Quality Award (Off Season Brazil);<br>
+      <li>Quality Award (Off-Season Brazil);<br>
       <li class="cb">Chairman’s Award Finalist (Championship);<br>
       <li class="cb">Classificação para a Etapa Mundial (Championship).</li></ul></mat-tab>
       <mat-tab class="tab1" label="2020"><br><ul>
@@ -110,7 +110,7 @@
         <li class="cb">Classificação para a Etapa Mundial (Championship).</li></ul></mat-tab>
         <mat-tab class="tab1" label="2019"><br><ul>
           <li>Chairman’s Award Winner (Hudson Valley Regional);<br>
-          <li>Regional Winners (Off Season Brazil);<br>
+          <li>Regional Winners (Off-Season Brazil);<br>
           <li class="cb">Classificação para a Etapa Mundial (Championship).</li></ul></mat-tab>
           <mat-tab class="tab1" label="2018"><br><ul>
             <li>Regional Winners (Iowa Regional);<br>

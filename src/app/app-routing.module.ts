@@ -6,6 +6,8 @@ import { FirstComponent } from './first/first.component';
 import { RobosComponent } from './robos/robos.component';
 import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
 import { GicComponent } from './gic/gic.component';
+import { ComunidadeComponent } from './comunidade/comunidade.component';
+import { DevelopmentComponent } from './development/development.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
@@ -32,6 +34,14 @@ const routes: Routes = [
   {
     path: 'gic',
     component: GicComponent
+  },
+  {
+    path: 'comunidade',
+    component: ComunidadeComponent
+  },
+  {
+    path: 'development',
+    component: DevelopmentComponent
   },
   {
     path: '',

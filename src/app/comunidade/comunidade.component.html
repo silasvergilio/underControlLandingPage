@@ -8,19 +8,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 <mat-toolbar color="primary" class="top-nav">
-    <button
-      mat-icon-button
-      class="example-icon"
-      aria-label="Example icon-button with menu icon"
-    >
-      <mat-icon>menu</mat-icon>
-    </button>
-    <img src="../assets/logo.png">
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
-    <span class="nav-item"></span>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img src="../assets/logo.png">
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
 
     <div class="social">
       <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
@@ -35,43 +35,45 @@
     </div>    
 
   </mat-toolbar>
-  <div class="menu-total">
-    <button class="menucor" mat-button [matMenuTriggerFor]="menu">Sobre</button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
-    <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
-  </mat-menu>
-    <button class="menucor" mat-button [matMenuTriggerFor]="menu2">Competição</button>
-  <mat-menu #menu2="matMenu">
-    <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
-    <button mat-menu-item (click)="navigateAwards()">Premiações</button>
-  </mat-menu>
-  <button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
-  <mat-menu #menu3="matMenu">
-  <button mat-menu-item>Impact/Books</button>
-  <button mat-menu-item>2023 CAD</button>
-  <button mat-menu-item>Outros Recursos</button>
-  </mat-menu>
-  <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
-  <mat-menu #menu4="matMenu">
-  <button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
-  <button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
-  <button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
-  </mat-menu>
-  <button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
-  <mat-menu #menu5="matMenu">
-  </mat-menu>
-  </div>
+<div class="menu-total">
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu">Sobre</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
+  <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
+</mat-menu>
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu2">Competição</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
+  <button mat-menu-item (click)="navigateAwards()">Premiações</button>
+</mat-menu>
+<button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<mat-menu #menu3="matMenu">
+<button mat-menu-item>Impact/Books</button>
+<button mat-menu-item>2023 CAD</button>
+<button mat-menu-item>Outros Recursos</button>
+</mat-menu>
+<button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<mat-menu #menu4="matMenu">
+<button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
+<button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
+<button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
+</mat-menu>
+<button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
+<mat-menu #menu5="matMenu">
+</mat-menu>
+</div>
+
 
 <body>
     <div class="column">
-        <img src="../assets/p1.png" class="p1" alt="Sponsors" style="width:100%">
-        <div class="sponsor"><img src="../assets/p2.png" style="width:100%"></div>
-        <div class="sponsor"><img src="../assets/p3.png" style="width:85%"></div>
-        <div class="sponsor"><img src="../assets/p4.png" style="width:100%"></div>
-        <div class="sponsor2"><img src="../assets/p5.png" style="width:85%"></div>
-        <div class="sponsor"><img src="../assets/p6.png" style="width:65%"></div>
+        <img src="../assets/comu1.png" class="comu1" alt="Comunidade Bg" style="width:100%">
+        <div class="comutxt"><h2>A Comunidade Brasileira de Equipes FIRST é um movimento que busca levar informação e conteúdo referente a robótica da FIRST. Além disso, o projeto visa aumentar a visibilidade das iniciativas e robôs dos times brasileiros, unindo a comunidade nacional e apresentando para o maior número de pessoas possível os projetos das equipes, por meio de divulgação de projetos, promoção de eventos, dicas e muito mais!
+            </h2></div>
     </div>
+    <div class="linkyt">
+        <a href="https://www.youtube.com/@comunidadefirstbr" target="_blank"><h2>Comunidade FIRST BR</h2></a></div>
+        <div class="linkinsta">
+            <a href="https://www.instagram.com/@comunidadefirstbr" target="_blank"><h2>@comunidadefirstbr</h2></a></div>        
 </body>
 
 

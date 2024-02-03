@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-patrocinadores',
-  templateUrl: './patrocinadores.component.html',
-  styleUrls: ['./patrocinadores.component.css']
+  selector: 'app-comunidade',
+  templateUrl: './comunidade.component.html',
+  styleUrls: ['./comunidade.component.css']
 })
-export class PatrocinadoresComponent implements OnInit {
+export class ComunidadeComponent implements OnInit {
 
   constructor(private router: Router) {}
 

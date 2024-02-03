@@ -42,7 +42,8 @@
   
   .mat-menu-item{
     background-color: white;
-    font-size: 14px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
     font-weight: 400;
     text-align: left;
     color: #1f487e;
@@ -53,13 +54,32 @@
   }
 
 .gictxt{
-    margin-top: -1190px;
+    margin-top: -1110px;
     margin-right: 655px;
     padding: 25px;
     text-align: justify;
 }
 
+.menucor{
+  color: white;
+  font-family: "League Spartan";
+  font-size: 19px;
+}
 
+.giccor{
+  color: #f8a2db;
+  font-size: 16px;
+}
+
+.cfbcor{
+  color: #009c3b;
+  font-size: 16px;
+}
+
+.undcor{
+  color: #009cd7;
+  font-size: 16px;
+}
 
 .arimo-font{
     font-family: "Arimo", sans-serif;
@@ -83,7 +103,7 @@ body{
     background-position: center;
     background-attachment: scroll;
     background-size: auto;
-    margin-bottom: 750px;
+    margin-bottom: 620px;
 }
 
 .footer {
