@@ -46,11 +46,88 @@ body{
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
-  margin-bottom: 550px;
+  margin-bottom: 975px;
+}
+
+.ytv{
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 330px;
+  border-color: #1f487e;
 }
 
 .dev2{
     margin-bottom: 100px;
+}
+
+.dev2{
+  margin-bottom: 10px;
+}
+
+.mat-list{
+  text-align: center;
+  margin-left: 180px;
+}
+
+.divmeio{
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  margin-left: -150px;
+}
+
+.sup{
+  text-align: center;
+  background-color: white;
+  font-size: 21px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700px;
+  color: #1f487e;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+.supicon{
+  margin-left: 8px;
+}
+
+.divsup{
+  color: #1f487e;
+  text-align: center;
+}
+
+.wppicon{
+  margin-top: -5px;
+  margin-right: -8px;
+}
+
+.txtwpp{
+  margin-top: 5px;
+}
+
+.columnmat{
+  width: 33%;
+  float: left;
+  text-align: center;
+  align-items: center;
+}
+
+.mat-expansion-panel{
+  background-color: #f1f1f1;
+  padding: 3px;
+  margin-right: 230px;
+  margin-left: 230px;
+}
+
+.mat-expansion-panel-header{
+  font-family: "League Spartan";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.mat-icon{
+  margin-right: 15px;
 }
 
 .league-spartan{

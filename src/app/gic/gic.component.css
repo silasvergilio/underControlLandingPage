@@ -106,6 +106,23 @@ body{
     margin-bottom: 620px;
 }
 
+.columnmat{
+  width: 50%;
+  float: left;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 660px;
+}
+
+.dgic{
+  font-size: 32px;
+  text-align: left;
+  color: #e61770;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
 .footer {
     font-family: 'Bombardier', sans-serif;
     font-size: 19px;

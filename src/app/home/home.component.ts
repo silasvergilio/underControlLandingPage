@@ -58,6 +58,12 @@ export class HomeComponent implements OnInit {
     
   }
 
+  public navigateNaotecnico() {
+
+    this.router.navigate(['naotecnico']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);

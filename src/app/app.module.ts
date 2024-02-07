@@ -21,6 +21,9 @@ import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.compone
 import { GicComponent } from './gic/gic.component';
 import { ComunidadeComponent } from './comunidade/comunidade.component';
 import { DevelopmentComponent } from './development/development.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatListModule} from '@angular/material/list';
+import { NaotecnicoComponent } from './naotecnico/naotecnico.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,7 @@ import { DevelopmentComponent } from './development/development.component';
     GicComponent,
     ComunidadeComponent,
     DevelopmentComponent,
+    NaotecnicoComponent,
   ],
   imports: [
     MatMenuModule,
@@ -45,6 +49,8 @@ import { DevelopmentComponent } from './development/development.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    MatExpansionModule,
+    MatListModule,
     HttpClientModule
   ],
   providers: [],
@@ -56,6 +62,10 @@ export class AppModule {
         this.matIconRegistry.addSvgIcon(
           "youtube",
           this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/youtube.svg"),
+        )
+        this.matIconRegistry.addSvgIcon(
+          "wpp",
+          this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/wpp.svg"),
         )
           this.matIconRegistry.addSvgIcon(
           "instagram",

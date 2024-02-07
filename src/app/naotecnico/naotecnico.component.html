@@ -1,0 +1,150 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;1,500&family=League+Spartan&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=League+Spartan&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<mat-toolbar color="primary" class="top-nav">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <img src="../assets/logo.png">
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+  <span class="nav-item"></span>
+
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>    
+
+  </mat-toolbar>
+<div class="menu-total">
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu">Sobre</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item (click)="navigateSobrenos()">Sobre Nós</button>
+  <button mat-menu-item (click)="navigateRobos()">Nossos Robôs</button>
+</mat-menu>
+  <button class="menucor" mat-button [matMenuTriggerFor]="menu2">Competição</button>
+<mat-menu #menu2="matMenu">
+  <button mat-menu-item (click)="navigateFirst()">FIRST®</button>
+  <button mat-menu-item (click)="navigateAwards()">Premiações</button>
+</mat-menu>
+<button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
+<mat-menu #menu3="matMenu">
+<button mat-menu-item>Não-Técnico</button>
+<button mat-menu-item>2023 CAD</button>
+</mat-menu>
+<button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
+<mat-menu #menu4="matMenu">
+<button class="undcor" mat-menu-item (click)="navigateDevelopment()">Under Development</button>
+<button class="giccor" mat-menu-item (click)="navigateGic()">Girls In Control</button>
+<button class="cfbcor" mat-menu-item (click)="navigateComunidade()">Comunidade FIRST BR</button>
+</mat-menu>
+<button class="menucor" mat-button (click)="navigatePatrocinadores()">Patrocinadores</button>
+<mat-menu #menu5="matMenu">
+</mat-menu>
+</div>
+
+
+<body>
+    <div class="column">
+        <img src="../assets/rec1.png" class="rec1" alt="Recursos Bg" style="width:100%"></div>
+        <div class="rec2"><img src="../assets/rec2.png" style="width:28%"></div>
+        <div class="rectxt"><mat-list>
+            <mat-list-item class="rectxt"><li>Impact - 2023</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2022</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2021</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2020</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2019</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2018</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Impact - 2017</mat-list-item>
+            <mat-divider></mat-divider>
+          </mat-list></div>
+          <div class="fotorec"><img src="../assets/fotorec.png" style="width:75%"></div>
+        <div class="rec3"><img src="../assets/rec3.png" style="width:28%"></div>
+        <div class="rectxt"><mat-list>
+            <mat-list-item class="rectxt"><li>Perguntas - 2023</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2022</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2021</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2020</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2019</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2018</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Perguntas - 2017</mat-list-item>
+            <mat-divider></mat-divider>
+          </mat-list></div>
+        <div><img src="../assets/rec4.png" style="width:28%"></div>
+        <div class="rectxt"><mat-list>
+            <mat-list-item class="rectxt"><li>Memories - 2023</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2022</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2021</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2020</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2019</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2018</mat-list-item>
+            <mat-divider></mat-divider>
+            <mat-list-item class="rectxt"><li>Memories - 2017</mat-list-item>
+            <mat-divider></mat-divider>
+          </mat-list></div>
+</body>
+
+
+
+<div class="footer">
+    <div class="column3">
+    <h2>Localização: </h2><p>Colégio Marista Pio XII - 93510-060 <br> Av. Nicolau Becker 182,
+      Vila Rosa - Novo Hamburgo, RS Brasil. <br> Aberto de Segunda à Sexta das 8:00 às 17:40</p>
+    </div>
+    <div class="column3">
+        <h2>Contato: </h2><p>Entre em contato conosco pelas redes sociais ou pelos seguintes canais:
+            <br>Ramal ➞ (51) 3584-8000 - Helpline ➞ (51) 9 9878-2313 - Email ➞ robotica.1156@gmail.com </p>
+      </div>
+      <img src="../assets/LogoFIRST.png" class="logof1" alt="logoFirst">
+      <img src="../assets/under.png" class="logof2" alt="logoUnder">
+    <div class="copy">
+      <p>© 2024 Under Control - 1156 | O Time de Robótica do Brasil. All Rights Reserved.</p>
+    </div>
+    <div class="social">
+      <a href="https://www.youtube.com/@TeamUnderControl1156" target="_blank"> <button mat-icon-button color="primary" aria-label="Youtube">
+       <mat-icon svgIcon="youtube"></mat-icon>
+      </button></a>
+      <a href="https://www.instagram.com/undercontrol1156" target="_blank"><button mat-icon-button color="accent" aria-label="Instagram">
+        <mat-icon svgIcon="instagram"></mat-icon>
+      </button></a>
+      <a href="https://www.tiktok.com/@undercontrol1156" target="_blank"><button mat-icon-button color="warn" aria-label="Tiktok">
+        <mat-icon>tiktok</mat-icon>
+      </button></a>
+    </div>   
+  </div>
