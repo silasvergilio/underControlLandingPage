@@ -48,7 +48,7 @@
 </mat-menu>
 <button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
 <mat-menu #menu3="matMenu">
-<button mat-menu-item>Não-Técnico</button>
+<button mat-menu-item (click)="navigateNaotecnico()">Não-Técnico</button>
 <button mat-menu-item>2023 CAD</button>
 </mat-menu>
 <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
@@ -70,29 +70,29 @@
         </div>
         <div class="columnmat">
             <mat-list>
-              <mat-list-item>Item 1</mat-list-item>
+              <mat-list-item class="docenter">O Livro Secreto do LabView</mat-list-item>
               <mat-divider class="divmeio"></mat-divider>
-              <mat-list-item>Item 2</mat-list-item>
+              <mat-list-item class="docenter">Distância - Limelight</mat-list-item>
               <mat-divider class="divmeio"></mat-divider>
-              <mat-list-item>Item 3</mat-list-item>
-              <mat-divider class="divmeio"></mat-divider>
-            </mat-list></div>
-          <div class="columnmat">
-            <mat-list class="matlist2">
-              <mat-list-item>Item 1</mat-list-item>
-              <mat-divider class="divmeio"></mat-divider>
-              <mat-list-item>Item 2</mat-list-item>
-              <mat-divider class="divmeio"></mat-divider>
-              <mat-list-item>Item 3</mat-list-item>
+              <mat-list-item class="docenter">Trajetória Labview</mat-list-item>
               <mat-divider class="divmeio"></mat-divider>
             </mat-list></div>
           <div class="columnmat">
             <mat-list class="matlist2">
-                  <mat-list-item>Item 1</mat-list-item>
+              <mat-list-item class="docenter">Template Build-Season</mat-list-item>
+              <mat-divider class="divmeio"></mat-divider>
+              <mat-list-item class="docenter">Manual KOP 2020</mat-list-item>
+              <mat-divider class="divmeio"></mat-divider>
+              <mat-list-item class="docenter">Manual KOP 2022</mat-list-item>
+              <mat-divider class="divmeio"></mat-divider>
+            </mat-list></div>
+          <div class="columnmat">
+            <mat-list class="matlist2">
+                  <mat-list-item class="docenter">Branding Guidelines</mat-list-item>
                   <mat-divider class="divmeio"></mat-divider>
-                  <mat-list-item>Item 2</mat-list-item>
+                  <mat-list-item class="docenter">Business Plan 2022</mat-list-item>
                   <mat-divider class="divmeio"></mat-divider>
-                  <mat-list-item>Item 3</mat-list-item>
+                  <mat-list-item class="docenter">Item 3</mat-list-item>
                   <mat-divider class="divmeio"></mat-divider>
             </mat-list>
       </div>
@@ -124,10 +124,12 @@
       <iframe class="ytv" width="640" height="360"
         src="https://www.youtube.com/embed/b1ABrXfH2to">
       </iframe>
+      <div class="devdiv"><img src="../assets/devdiv.png" alt="Divider" style="width:60%"></div>
       <mat-card class="sup"><mat-icon> <div class="supicon">settings_phone</div></mat-icon>Suporte: 55 51 9984-21977 <br>
         <mat-divider class="divsup"></mat-divider><div class="txtwpp"></div>
         <button class="wppicon" mat-icon-button color="accent" aria-label="Whatsapp">
-          <mat-icon svgIcon="wpp" class="wppicon"></mat-icon></button>Whatsapp: 55 51 9984-21977</mat-card>
+          <mat-icon svgIcon="wpp" class="wppicon"></mat-icon></button>Whatsapp: 55 51 9984-21977
+          <mat-chip color="accent" selected>Já disponível!</mat-chip></mat-card>
 </body>
 
 <div class="footer">

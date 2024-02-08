@@ -58,6 +58,12 @@ export class GicComponent implements OnInit {
     
   }
 
+  public navigateNaotecnico() {
+
+    this.router.navigate(['naotecnico']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);

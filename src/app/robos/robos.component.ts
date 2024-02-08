@@ -58,6 +58,12 @@ export class RobosComponent implements OnInit {
     
   }
 
+  public navigateNaotecnico() {
+
+    this.router.navigate(['naotecnico']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);

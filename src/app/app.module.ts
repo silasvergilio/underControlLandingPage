@@ -24,6 +24,7 @@ import { DevelopmentComponent } from './development/development.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
 import { NaotecnicoComponent } from './naotecnico/naotecnico.component';
+import {MatChipsModule} from '@angular/material/chips';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { NaotecnicoComponent } from './naotecnico/naotecnico.component';
     MatTabsModule,
     MatExpansionModule,
     MatListModule,
+    MatChipsModule,
     HttpClientModule
   ],
   providers: [],
