@@ -48,7 +48,13 @@
     text-align: left;
     color: #1f487e;
   }
-  
+
+  .column{
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+  }
+
   .nav-item{
     color: #0061a6
   }
@@ -106,13 +112,17 @@
     margin-bottom: 620px;
 }
 
-.fotorec{
-    margin-left: 800px;
-    margin-bottom: -100px;
+.frec{
+  margin-top: 95px;
+  margin-left: 100px;
 }
 
-.rec3{
-    margin-top: -381px;
+.rec2{
+  margin-bottom: -40px;
+}
+
+.rec1{
+  margin-bottom: -25px;
 }
 
 .rectxt{
@@ -123,10 +133,21 @@
     margin-bottom: 3px;
 }
 
+.rectxt1{
+  font-size: 20px;
+  color: #1f487e;
+  margin-left: 28px;
+  margin-top: -1118px;
+  margin-bottom: 3px;
+}
+
 .mat-divider{
     margin-right: 850px;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 body{
     background-color: white;
@@ -134,7 +155,7 @@ body{
     background-position: center;
     background-attachment: scroll;
     background-size: auto;
-    margin-bottom: 950px;
+    margin-bottom: 800px;
 }
 
   .arimo-font{
