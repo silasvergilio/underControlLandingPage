@@ -1,0 +1,112 @@
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    font-size: medium;
+    justify-items: center;
+}
+
+.social button,
+.social a {
+  margin-right: 10px;
+}
+
+.menu-total{
+  background-color: #0061a6;
+  justify-content: space-evenly;
+}
+
+.mat-button{
+  background-color: #0061a6;
+  font-size: medium;
+  text-align: center;
+  justify-items: center;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.mat-menu-item{
+  background-color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #1f487e;
+}
+
+.nav-item{
+  color: #0061a6
+}
+
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-bottom: 300px;
+}
+
+.arimo-font{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+      font-family: 'Bombardier';
+      src: url('Bombardier.woff2') format('woff2'),
+          url('Bombardier.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  
+
+
+
+  .footer {
+      font-family: 'Bombardier', sans-serif;
+      font-size: 19px;
+      margin-top: 5px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1f487e;
+      color: white;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      margin-top: -8px;
+  }
+  
+  .column2{
+      width: 50%;
+      float: left;
+      margin-top: 35px;
+  }
+    
+  .column3{
+      width: 50%;
+      float: left;
+  }
+  
+  .logof1{
+      width: 7%;
+      padding-bottom: 25px;
+      align-items: center;
+  }
+    
+  .logof2{
+      width: 9%;
+      padding-bottom: 5px;
+      align-items: center;
+  }
+    
+  .copy{
+     font-size: 15px;
+    }

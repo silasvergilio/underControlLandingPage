@@ -9,6 +9,7 @@ import { GicComponent } from './gic/gic.component';
 import { ComunidadeComponent } from './comunidade/comunidade.component';
 import { DevelopmentComponent } from './development/development.component';
 import { NaotecnicoComponent } from './naotecnico/naotecnico.component';
+import { CadComponent } from './cad/cad.component';
 import { HomeComponent } from './home/home.component';7
 
 const routes: Routes = [
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'naotecnico',
     component: NaotecnicoComponent
+  },
+  {
+    path: 'cad',
+    component: CadComponent
   },
   {
     path: '',

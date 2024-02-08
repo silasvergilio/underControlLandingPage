@@ -40,7 +40,7 @@
   <button class="menucor" mat-button [matMenuTriggerFor]="menu3">Recursos</button>
   <mat-menu #menu3="matMenu">
   <button mat-menu-item (click)="navigateNaotecnico()">Não-Técnico</button>
-  <button mat-menu-item>2023 CAD</button>
+  <button mat-menu-item (click)="navigateCad()">2023 CAD</button>
   </mat-menu>
   <button class="menucor" mat-button [matMenuTriggerFor]="menu4">Projetos</button>
   <mat-menu #menu4="matMenu">

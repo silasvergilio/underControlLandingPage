@@ -25,6 +25,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
 import { NaotecnicoComponent } from './naotecnico/naotecnico.component';
 import {MatChipsModule} from '@angular/material/chips';
+import { CadComponent } from './cad/cad.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import {MatChipsModule} from '@angular/material/chips';
     ComunidadeComponent,
     DevelopmentComponent,
     NaotecnicoComponent,
+    CadComponent,
   ],
   imports: [
     MatMenuModule,

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-awards',
-  templateUrl: './awards.component.html',
-  styleUrls: ['./awards.component.css']
+  selector: 'app-cad',
+  templateUrl: './cad.component.html',
+  styleUrls: ['./cad.component.css']
 })
-export class AwardsComponent implements OnInit {
+export class CadComponent implements OnInit {
 
   constructor(private router: Router) {}
 
@@ -69,7 +69,7 @@ export class AwardsComponent implements OnInit {
     this.router.navigate(['cad']);
     
   }
-  
+
   public navigateHome() {
 
     this.router.navigate(['']);

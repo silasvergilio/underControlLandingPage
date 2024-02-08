@@ -64,6 +64,12 @@ export class RobosComponent implements OnInit {
     
   }
 
+  public navigateCad() {
+
+    this.router.navigate(['cad']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);

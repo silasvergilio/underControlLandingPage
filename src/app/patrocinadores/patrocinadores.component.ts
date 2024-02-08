@@ -64,6 +64,12 @@ export class PatrocinadoresComponent implements OnInit {
     
   }
 
+  public navigateCad() {
+
+    this.router.navigate(['cad']);
+    
+  }
+
   public navigateHome() {
 
     this.router.navigate(['']);
