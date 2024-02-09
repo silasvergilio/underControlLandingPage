@@ -13,6 +13,12 @@ import { CadComponent } from './cad/cad.component';
 import { HomeComponent } from './home/home.component';7
 
 const routes: Routes = [
+
+  {
+    path: '',
+    pathMatch: 'full',
+    component: HomeComponent
+  },
   {
     path: 'premios',
     component: AwardsComponent
@@ -53,10 +59,6 @@ const routes: Routes = [
     path: 'cad',
     component: CadComponent
   },
-  {
-    path: '',
-    component: HomeComponent
-  }
 ];
 
 @NgModule({
