@@ -20,7 +20,7 @@
 }
 
 .menu-total{
-  background-color: #0061a6;
+  background-color: #4f8c45;
   justify-content: space-evenly;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .mat-button{
-  background-color: #0061a6;
+  background-color: #4f8c45;
   font-size: medium;
   text-align: center;
   justify-items: center;
@@ -50,7 +50,7 @@
 }
 
 .nav-item{
-  color: #0061a6
+  color: #4f8c45
 }
 
 .league-spartan{
@@ -118,7 +118,7 @@ body{
     background-position: center;
     background-attachment: scroll;
     background-size: auto;
-    margin-bottom: 2550px;
+    margin-bottom: 2890px;
 }
 
   .footer {

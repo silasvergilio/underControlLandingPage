@@ -40,13 +40,80 @@
   color: #0061a6
 }
 
+.league-spartan{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.menucor{
+  color: white;
+  font-family: "League Spartan";
+  font-size: 19px;
+}
+
+.giccor{
+  color: #f8a2db;
+  font-size: 16px;
+}
+
+.cfbcor{
+  color: #009c3b;
+  font-size: 16px;
+}
+
+.undcor{
+  color: #009cd7;
+  font-size: 16px;
+}
+
+
+.fotocad{
+  text-align: center;
+  margin-top: -35px;
+}
+
+.buttoncad{
+  color: #0061a6;
+}
+
+.divider{
+  margin-top: 15px;
+}
+
+.robtxt{
+  margin-top: 6px;
+  font-size: 22px;
+  text-align: center;
+  color: #001f3a;
+}
+
+.buttoncad1{
+  font-size: 29px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: -5px;
+}
+
+.buttoncad2{
+  font-size: 17px;
+  color: #1f487e;
+}
+
+.buttoncadc{
+  text-align: center;
+}
+
 body{
   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
   background-size: cover;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .arimo-font{
