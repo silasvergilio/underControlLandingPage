@@ -10,12 +10,18 @@ export class HomeComponent implements OnInit {
 
   constructor(private router: Router) {}
 
+  public textRobot = "O nosso robô da temporada de 2023 se chama Archon, cujo nome é inspirado em uma unidade do Starcraft. Tem 38 polegadas de altura, 24 polegadas de largura, 25,5 polegadas de comprimento e pesa 31,5 quilos. O robô foi inteiramente projetada em CAD."
+
   public navigateAwards() {
 
     this.router.navigate(['premios']);
     
   }
-
+  
+  public backHome(){
+    console.log('back button')
+    this.router.navigate(['/'])
+  }
   public navigateSobrenos() {
 
     this.router.navigate(['sobrenos']);

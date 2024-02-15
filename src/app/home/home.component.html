@@ -9,7 +9,7 @@
   >
     <mat-icon>menu</mat-icon>
   </button>
-  <img src="../assets/logo.png">
+  <a (click)="backHome()"> <img src="../assets/logo.png"> </a>
   <span class="nav-item"></span>
   <span class="nav-item"></span>
   <span class="nav-item"></span>
@@ -77,9 +77,7 @@ src="https://www.youtube.com/embed/RU3XEFaCeSE?loop=1">
   <img src="../assets/titlearc.png" alt="robottitle" style="width:50%">
 </div> 
   <div class="column2">
-    <mat-card-content><h3 class="texto-dois">O nosso robô da temporada de 2023 se chama Archon, cujo
-      nome é inspirado em uma unidade do Starcraft. Tem 38 polegadas de altura, 24 polegadas de largura, 25,5
-      polegadas de comprimento e pesa 31,5 quilos. O robô foi inteiramente projetada em CAD. 
+    <mat-card-content><h3 class="texto-dois">{{textRobot}}
     </h3>
   </mat-card-content>
 </div>
