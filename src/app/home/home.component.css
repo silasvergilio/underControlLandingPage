@@ -1,3 +1,7 @@
+.logo1{
+  margin-top: 11px;
+}
+
 .top-nav{
     display: flex;
     flex-direction: row;
@@ -150,6 +154,31 @@ body{
   margin-top: 25px;
   float: right;
   border-color: #1f487e;
+}
+
+#myVideo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  position: static;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.patrohome{
+  text-align: center;
+  margin-top: -350px;
+  margin-bottom: 140px;
+}
+
+.buttonpat{
+  font-size: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: -5px;
 }
 
 .fototime{

@@ -9,7 +9,7 @@
   >
     <mat-icon>menu</mat-icon>
   </button>
-  <a (click)="backHome()"> <img src="../assets/logo.png"> </a>
+  <a (click)="backHome()"> <img class="logo1" src="../assets/logo.png"> </a>
   <span class="nav-item"></span>
   <span class="nav-item"></span>
   <span class="nav-item"></span>
@@ -81,12 +81,20 @@ src="https://www.youtube.com/embed/RU3XEFaCeSE?loop=1">
     </h3>
   </mat-card-content>
 </div>
-
+<video autoplay muted loop id="myVideo">
+  <source src="../assets/under.mp4" type="video/mp4">
+</video>
+<div class="patrohome">
+  <img src="../assets/patrohome.png" alt="patrohome" style="width:80%">
+  <div class="buttonpat">
+    <a href="patrocinadores"><button class="buttonpat" mat-raised-button color="primary">Patrocinadores
+</button></a>
+  </div>
+</div> 
 <body>
 </body>
 <div class="fototime">
     <img src="../assets/fototime.png" alt="Foto Time" style="width:100%">
-    <img src="../assets/f1.png" class="circ" alt="f1" style="width:20%">
   </div>
 
   <div class="footer">

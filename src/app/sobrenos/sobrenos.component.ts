@@ -10,6 +10,10 @@ export class SobrenosComponent implements OnInit {
 
   constructor(private router: Router) {}
 
+  public backHome(){
+    this.router.navigate(['/'])
+  }
+
   public navigateAwards() {
 
     this.router.navigate(['premios']);
