@@ -110,6 +110,24 @@
     margin-left: -140px;
 }
 
+.roboslist1{
+  margin-left: 140px;
+}
+
+.texto1{
+  margin-left: 660px;
+  margin-top: -280px;
+  margin-bottom: 250px;
+  color: white;
+  font-size: 23px;
+  text-align: left;
+}
+
+.column1{
+  width: 75%;
+  float: left;
+}
+
 body{
     background-color: #1f487e;
     background-repeat: repeat;
