@@ -79,7 +79,32 @@
 }
 
 .buttoncad{
-  color: #0061a6;
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gainsboro;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .divider{
@@ -111,6 +136,7 @@
   text-align: center;
 }
 
+
 body{
   background-color: white;
   background-repeat: no-repeat;
@@ -136,8 +162,6 @@ body{
       font-display: swap;
   }
   
-  
-
 
 
   .footer {

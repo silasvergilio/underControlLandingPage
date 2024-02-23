@@ -105,7 +105,7 @@
 
 .frclogo{
   position: absolute;
-  margin-top: -420px;
+  margin-top: -440px;
   margin-left: 230px;
   text-align: center;
   align-items: center;
@@ -114,13 +114,13 @@
 .centered{
   position: absolute;
   margin-top: 345px;
-  margin-left: -25px;
-  margin-right: -25px;
+  margin-left: -40px;
+  margin-right: -40px;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: whitesmoke;
   font-size: 19px;
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
@@ -144,7 +144,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;

@@ -55,7 +55,8 @@ body{
 
 .devdiv{
   text-align: center;
-  margin-bottom: -20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .ytv{
@@ -95,13 +96,16 @@ body{
   color: #1f487e;
   margin-left: 260px;
   margin-right: 260px;
-  padding-bottom: 20px;
-  padding-top: 50px;
+  margin-bottom: -15px;
   justify-content: center;
 }
 
 .supicon{
   margin-left: 8px;
+}
+
+.instadiv{
+  margin-left: -35px;
 }
 
 .divsup{
@@ -112,6 +116,10 @@ body{
 .wppicon{
   margin-top: -5px;
   margin-right: -8px;
+}
+
+.contate{
+  text-align: center;
 }
 
 .txtwpp{
