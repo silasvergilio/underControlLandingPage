@@ -1,6 +1,6 @@
 .logo1{ 
   transition: all .2s ease-in-out;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-left: 20px;
   }
   
@@ -169,10 +169,12 @@ body{
 #myVideo {
   margin-top: 30px;
   margin-bottom: 10px;
+  padding-top: 15px;
   position: static;
   right: 0;
   bottom: 0;
   max-width: 100%;
+  display: inline-table;
   min-height: 100%;
 }
 
@@ -184,6 +186,7 @@ body{
 
 .patroimg{
   text-align: center;
+  display: inline-table;
 }
 
 .buttonpat{
@@ -241,6 +244,7 @@ body{
   margin-right: 20px;
   padding-bottom: 10px;
   align-items: center;
+  display: inline-table;
 }
 
 .logof2{

@@ -121,6 +121,11 @@
   align-items: center;
 }
 
+.frclogodentro{
+  display: inline-table;
+  text-align: center;
+}
+
 .centered{
   position: absolute;
   margin-top: 345px;

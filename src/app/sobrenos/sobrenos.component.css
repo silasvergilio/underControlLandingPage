@@ -135,7 +135,7 @@ body{
 .premiosdiv{
     margin-top: 25px;
     margin-left: -10px;
-    margin-bottom: -5px;
+    margin-bottom: 20px;
 }
 
 .titlep{
@@ -176,6 +176,7 @@ body{
 .divider1{
     margin-bottom: 10px;
     text-align: center;
+    display: inline-table;
 }
 
 .regional{
