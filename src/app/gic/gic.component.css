@@ -1,61 +1,57 @@
-.logo1{
-  margin-top: 11px;
+.logo1{ 
+  transition: all .2s ease-in-out;
+  margin-top: 65px;
+  margin-left: 20px;
+  }
+  
+.logo1:hover { 
+  transform: scale(1.1); 
 }
 
-.rubik-font{
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .top-nav{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      background-color: white;
-      font-size: medium;
-      justify-items: center;
-  }
-  
-  .social button,
-  .social a {
-    margin-right: 10px;
-  }
-  
-  .menu-total{
-    background-color: #f8a2db;
+.top-nav{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-  }
-  
-  .mat-card{
-    background-color: #f8a2db;
-    margin-top: -8px;
-    border-style: none;
-  }
-  
-  .mat-button{
-    background-color: #f8a2db;
-    font-size: medium;
-    text-align: center;
-    justify-items: center;
-    color: white;
-    padding: 10px;
-    margin-left: 20px;
-  }
-  
-  .mat-menu-item{
     background-color: white;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: left;
-    color: #1f487e;
-  }
-  
-  .nav-item{
-    color: #0061a6
-  }
+    font-size: medium;
+    margin-bottom: -4px;
+    margin-top: -4px;
+    justify-items: center;
+}
+
+.social button,
+.social a {
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.menu-total{
+  background-color: #F8A2DB;
+  justify-content: safe;
+  text-align: center;
+}
+
+.mat-button{
+  background-color: #F8A2DB;
+  font-size: medium;
+  text-align: center;
+  justify-items: center;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.mat-menu-item{
+  background-color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f487e;
+}
+
+.nav-item{
+  color: #F8A2DB;
+}
 
 .gictxt{
     margin-top: -1110px;
@@ -160,9 +156,10 @@ body{
 }
 
 .logof1{
-    width: 7%;
-    padding-bottom: 25px;
-    align-items: center;
+  width: 7%;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  align-items: center;
 }
   
 .logof2{
