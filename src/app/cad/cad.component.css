@@ -86,6 +86,7 @@
 .fotocad{
   text-align: center;
   margin-top: -35px;
+  display: inline-table;
 }
 
 .buttoncad{
@@ -146,6 +147,10 @@ a:active {
   text-align: center;
 }
 
+.centralize1{
+  text-align: center;
+  display: inline-table;
+}
 
 body{
   background-color: white;

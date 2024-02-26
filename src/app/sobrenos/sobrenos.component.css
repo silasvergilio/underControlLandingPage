@@ -198,6 +198,10 @@ body{
     margin-top: -100px;
 }
 
+.marginr, .cb{
+  margin-left: 50px;
+}
+
 .cb{
     color: black;
 }
