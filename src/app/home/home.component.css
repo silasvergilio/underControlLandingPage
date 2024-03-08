@@ -56,7 +56,7 @@
 
 body{
   background-color: #0061a6;
-  background-image: url(src\assets\sitebackgrounds.png);
+  background-image: url(src\assets\sitebg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
@@ -152,7 +152,8 @@ body{
 }
 
 .robottitle{
-  margin: auto;
+  margin-left: 100px;
+  margin-bottom: -20px;
 }
 
 .circ{

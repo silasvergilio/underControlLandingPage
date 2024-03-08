@@ -88,7 +88,7 @@ body{
     background-position: center;
     background-attachment: scroll;
     background-size: auto;
-    margin-bottom: -340px;
+    margin-bottom: -400px;
 }
 
 @font-face {
@@ -115,7 +115,7 @@ body{
     margin-right: 10px;
     margin-left: 10px;
     font-size: 48px;
-    background-color: #1f487e;
+    background-color: #0061a6;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -127,7 +127,7 @@ body{
     font-style: normal;
     text-align: left;
     font-size: 48px;
-    background-color: #1f487e;
+    background-color: #0061a6;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -204,6 +204,20 @@ body{
 
 .cb{
     color: black;
+}
+
+.cb0{
+  color: black;
+}
+
+.fontm{
+  font-size: 20px;
+}
+
+.cb01{
+  color: #001f3a;
+  font-size: 21px;
+  margin-top: -20px;
 }
 
 .tab1{
