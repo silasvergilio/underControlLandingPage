@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  public textRobot = "O nosso robô da temporada de 2024 se chama Viper, cujo nome é inspirado em uma unidade do Starcraft. Tem 27 polegadas de altura, 24 polegadas de largura, 23,5 polegadas de comprimento e pesa 47 quilos. O robô foi inteiramente projetada em CAD."
+  public textRobot = "O nosso robô da temporada de 2024 se chama Viper, cujo nome é inspirado em uma unidade do Starcraft. Tem 27 polegadas de altura, 24 polegadas de largura, 23,5 polegadas de comprimento e pesa 47 quilos. O robô foi inteiramente projetado em CAD."
 
   public navigateAwards() {
 

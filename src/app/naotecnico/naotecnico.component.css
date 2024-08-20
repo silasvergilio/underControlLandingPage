@@ -122,7 +122,7 @@
 
 .frec{
   margin-top: 95px;
-  margin-left: 800px;
+  margin-left: 40px;
   display: flex;
   text-align: right;
 }
@@ -143,20 +143,24 @@
     font-size: 20px;
     color: #1f487e;
     margin-left: 28px;
-    margin-top: -8px;
-    margin-bottom: 3px;
+    margin-top: 27px;
+    margin-bottom: -15px;
 }
 
 .rectxt1{
   font-size: 20px;
   color: #1f487e;
   margin-left: 28px;
-  margin-top: -1118px;
-  margin-bottom: 3px;
 }
 
 .mat-divider{
     margin-right: 850px;
+}
+
+.hlinkc{
+  color: blue;
+  text-decoration: underline;
+  font-size: 18px;
 }
 
 * {
